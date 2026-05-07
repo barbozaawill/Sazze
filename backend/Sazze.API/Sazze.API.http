@@ -1,0 +1,6 @@
+@Sazze.API_HostAddress = http://localhost:5081
+
+GET {{Sazze.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
