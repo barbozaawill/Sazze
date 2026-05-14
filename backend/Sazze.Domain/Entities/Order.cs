@@ -13,5 +13,5 @@ public class Order
 
     public User User { get; set; } = null!;
     public Coupon? Coupon { get; set; }
-    public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+    public ICollection<OrderItem> Items { get; set; } = new List<OrderItem>();
 }
